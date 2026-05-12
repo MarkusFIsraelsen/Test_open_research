@@ -17,6 +17,8 @@ library(here)
 
 ```
 
+![Lifjellet](images/f7fedd27-760d-438c-8300-72efc4fa768d.jfif)
+
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
