@@ -2,11 +2,29 @@
 title: "Quarto Test"
 format: html
 editor: visual
+execute:
+  echo: false
+  message: false
 ---
+
+```{r}
+#| message: false
+#| warning: false
+
+library(readr)
+library(dplyr)
+library(here)
+
+```
 
 ## Quarto
 
 Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+
+```{r}
+test = 1+2
+plot(test)
+```
 
 ## Running Code
 
@@ -24,3 +42,5 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+
+print `r test`
